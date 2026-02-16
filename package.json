@@ -1,7 +1,7 @@
 {
   "name": "pregnancy-monorepo",
   "private": true,
-  "packageManager": "npm@11.7.0",
+  "packageManager": "npm@24.13.1",
   "workspaces": [
     "apps/*",
     "packages/*"
