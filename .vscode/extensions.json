@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "yoavbls.vscode-main-branch-commit-lint",
+    "expo.vscode-expo-tools"
+  ]
+}
