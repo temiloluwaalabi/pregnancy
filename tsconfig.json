@@ -15,6 +15,6 @@
       "*": ["node_modules/*"]
     }
   },
-  "include": ["eslint.config.mjs", "env.d.ts"],
+  "include": ["eslint.config.mjs", "env.d.ts", "eslint-env.d.ts"],
   "exclude": ["node_modules", "apps", "packages"]
 }

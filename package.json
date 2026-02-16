@@ -1,6 +1,7 @@
 {
   "name": "pregnancy-monorepo",
   "private": true,
+  "packageManager": "npm@11.7.0",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -10,7 +11,8 @@
   },
   "scripts": {
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
+    "lint": "eslint .",
+    "lint:turbo": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky",
     "clean": "turbo clean && find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' + && npm install"
@@ -26,10 +28,12 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^17.3.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "turbo": "^2.8.9"
+    "turbo": "^2.8.9",
+    "typescript-eslint": "^8.55.0"
   }
 }

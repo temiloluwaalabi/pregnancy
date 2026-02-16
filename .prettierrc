@@ -5,6 +5,8 @@
   "jsxSingleQuote": false,
   "tabWidth": 2,
   "useTabs": false,
+  "endOfLine": "lf",
+  "printWidth": 100,
   "arrowParens": "always",
   "plugins": ["prettier-plugin-tailwindcss"],
   "tailwindFunctions": ["clsx", "cx", "twMerge", "cva"]
